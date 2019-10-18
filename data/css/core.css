@@ -45,7 +45,11 @@ table {
 	border-spacing: 0;
 }
 
-h1 {
+a {
+    text-decoration: none;
+}
+
+.story {
     background: rgba(248, 165, 165, 0.3);
     padding: 1em;
     margin: 2em;
@@ -59,4 +63,8 @@ h1 {
 
 .subcomment {
     margin-left: 2em;
+}
+
+.more_comments {
+    cursor: pointer;
 }
