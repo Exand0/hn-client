@@ -55,11 +55,18 @@ a {
     margin: 2em;
 }
 
+.control {
+    padding: 1em;
+    margin: 2em;
+    text-align: center;
+}
+
 .comment {
     background: rgba(248, 165, 165, 0.3);
     padding: 1em;
     margin: 2em;
 }
+
 
 .subcomment {
     margin-left: 2em;
@@ -67,4 +74,9 @@ a {
 
 .more_comments {
     cursor: pointer;
+}
+
+.button_previous, .button_next {
+    min-width: 8em;
+    text-align: center;
 }
