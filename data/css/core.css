@@ -52,24 +52,25 @@ a {
 .story {
     background: rgba(248, 165, 165, 0.3);
     padding: 1em;
-    margin: 2em;
+    margin: 0.5em 2em 0.5em 2em;
 }
 
 .control {
     padding: 1em;
-    margin: 2em;
+    margin: 0.5em 2em 0.5em 2em;
     text-align: center;
 }
 
 .comment {
     background: rgba(248, 165, 165, 0.3);
     padding: 1em;
-    margin: 2em;
+    margin: 0.5em 2em 0.5em 2em;
 }
 
-
 .subcomment {
-    margin-left: 2em;
+    /* padding-left: 0.5em; */
+    margin: 0.5em 0 0.5em 1em;
+    border-top: solid 0.2em rgb(0, 0, 0);
 }
 
 .more_comments {
@@ -79,4 +80,8 @@ a {
 .button_previous, .button_next {
     min-width: 8em;
     text-align: center;
+}
+
+.user {
+    display: block;
 }
